@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#navbar {
+  display: flex;
+  background-color: black;
+  color: white;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.search {
+  margin-left: auto;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.nav-item a {
+  margin-top: 13px;
+  color: white;
+  padding: 12px 24px;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.search:hover {
+  background-color: red;
+}
+
+.nav-item a:hover {
+  background-color: rgb(252, 3, 252);
+}
+
+.color {
+  color: white !important;
+}
+
+.my-sliders {
+  height: 700px;
+}
+
+.main {
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 50px 150px;
+  margin-top: 15px;
+}
+
+.product {
+  background-color: white;
+
+  padding: 1px;
+  border-radius: 6px;
+}
+
+.product-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+.product-price {
+  color: cornflowerblue;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.product-name {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.product-wrapper {
+  padding: 15px;
+}
+
+.product-img:hover {
+  transform: scale(1.03);
+}
+
+.text-center {
+  font-size: 22px;
+}
+
+.footer {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.list {
+  width: 23%;
+  color: aliceblue;
+  margin-left: 20px;
+}
+
+.foot-item {
+  list-style: none;
+  padding: 0;
+  color: aliceblue;
+}
+
+.item {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.name {
+  color: rgb(252, 3, 252);
+  font-size: 25px;
+
+  padding: 12px 24px;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.copy {
+  text-decoration: none;
+}
