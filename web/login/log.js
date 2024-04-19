@@ -21,10 +21,9 @@ login.onsubmit = function (event) {
 
       return;
     } else {
-      console.log("Please check your information");
+      alert("Please check your information");
     }
   }
-  console.log("Login failed");
 };
 
 // let login = document.getElementById("login");

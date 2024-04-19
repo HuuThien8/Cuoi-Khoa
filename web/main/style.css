@@ -82,7 +82,8 @@ body {
 
 .product {
   background-color: white;
-
+  margin-right: 22px;
+  margin-top: 25px;
   padding: 1px;
   border-radius: 6px;
 }

@@ -40,9 +40,9 @@ register.onsubmit = function (event) {
 
   // xóa khoảng trống
   if (email.value.trim().length === 0 || pw.value.trim().length === 0) {
-    alert("Please check your information");
+    alert("Please check your username and password");
   } else if (email.value.trim().length !== 8) {
-    alert("Please check your email");
+    alert("Please check your username");
   } else if (
     //!pw.value.trim().match()lowerCase//
     pw.value.trim().length !== 8 ||
